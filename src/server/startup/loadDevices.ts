@@ -26,5 +26,8 @@ Meteor.startup(() => {
 
         for (let device of devices)
             Devices.insert(device);
+
+        for (let module of modules)
+            Modules.insert(module);
     }
 });

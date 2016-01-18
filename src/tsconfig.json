@@ -23,6 +23,7 @@
 		"model/devices.logs.ts",
 		"model/devices.modules.ts",
 		"model/devices.ts",
+		"model/modules.ts",
 		"server/lib/lib/mosca.ts",
 		"server/lib/mosca/auth.ts",
 		"server/publish/devices.inbox.ts",

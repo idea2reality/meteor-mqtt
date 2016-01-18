@@ -15,7 +15,7 @@ class MQTT {
                     var doc = {
                         deviceId: client.id,
                         moduleId: 'module01',
-                        value: packet.payload.toString(),
+                        value: Number(packet.payload.toString()),
                         date: new Date()
                     };
                     DevicesLogs.insert(doc);
