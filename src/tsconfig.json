@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es5",
+		"noImplicitAny": false,
+		"sourceMap": false
+	},
+	"filesGlob": [
+		"**/*.ts"
+	],
+	"files": [
+		"client/app.config.ts",
+		"client/app.route.ts",
+		"client/component.ts",
+		"client/component/sidenav/sidenav.component.ts",
+		"client/component/view/view.component.ts",
+		"client/lib/app.module.ts",
+		"client/view.ts",
+		"client/view/edison-detail.view.ts",
+		"manual_typings/mosca.d.ts",
+		"manual_typings/npm.d.ts",
+		"model/devices.inbox.ts",
+		"model/devices.logs.ts",
+		"model/devices.modules.ts",
+		"model/devices.ts",
+		"server/lib/lib/mosca.ts",
+		"server/lib/mosca/auth.ts",
+		"server/publish/devices.inbox.ts",
+		"server/publish/devices.ts",
+		"server/startup/loadDevices.ts",
+		"server/startup/makeRequests.ts",
+		"typings/angularjs/angular.d.ts",
+		"typings/bluebird/bluebird.d.ts",
+		"typings/jquery/jquery.d.ts",
+		"typings/meteor/meteor.d.ts",
+		"typings/tsd.d.ts"
+	],
+	"atom": {
+		"rewriteTsconfig": true
+	}
+}
